@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/avaliable.css" />
+  </head>
+  <body>
+    <header>
+      <h2 id="job-title">Job Application Tracker</h2>
+      <div class="job_cards">
+        <div class="card total">
+          <p>Total</p>
+          <h2>8</h2>
+        </div>
+
+        <div class="card interview">
+          <p>Interview</p>
+          <h2>0</h2>
+        </div>
+
+        <div class="card rejected">
+          <p>Rejected</p>
+          <h2>0</h2>
+        </div>
+      </div>
+    </header>
+    <div class="topbar">
+      <div class="main-top">
+        <h2>Available Jobs</h2>
+        <p>0 jobs</p>
+      </div>
+      <div class="buttons">
+        <!-- <button class="tab active">All</button>
+        <button class="tab">Interview</button>
+        <button class="tab">Rejected</button> -->
+
+        <button class="btn_all active">All</button>
+        <button class="btn_inter">Interview</button>
+        <button class="btn_rej">Rejected</button>
+      </div>
+    </div>
+    <hr />
+
+    <main id="all">
+      <div class="main-card">
+        <div class="main-text">
+          <div class="description">
+            <h3>Moblile First Corp</h3>
+            <p>React Native Developer</p>
+          </div>
+          <div style="background-color: white">
+            <i class="bi bi-trash icons"></i>
+          </div>
+        </div>
+        <p>Remote • Full-time • $130,000 - $175,000</p>
+        <button class="not_applied">Not Applied</button>
+        <p>
+          Build cross-platform mobile applications using React Native. Work on
+          products used by millions of users worldwide.
+        </p>
+
+        <button class="inter">Interview</button>
+        <button class="rej">Rejected</button>
+      </div>
+      <div class="main-card">
+        <div class="main-text">
+          <div class="description">
+            <h3>NextGen Solutions</h3>
+            <p>Frontend Developer (React)</p>
+          </div>
+          <div style="background-color: white">
+            <i class="bi bi-trash icons"></i>
+          </div>
+        </div>
+        <button class="not_applied">Not Applied</button>
+
+        <p>New York, USA • Full-time • $100,000 - $120,000</p>
+        <button class="inter">Interview</button>
+        <button class="rej">Rejected</button>
+      </div>
+
+      <div class="main-card">
+        <div class="main-text">
+          <div class="description">
+            <h3>TechNova Labs</h3>
+            <p>Backend Developer (Node.js)</p>
+          </div>
+          <div style="background-color: white">
+            <i class="bi bi-trash icons"></i>
+          </div>
+        </div>
+        <button class="not_applied">Not Applied</button>
+
+        <p>San Francisco, USA • Full-time • $110,000 - $140,000</p>
+        <button class="inter">Interview</button>
+        <button class="rej">Rejected</button>
+      </div>
+      <div class="main-card">
+        <div class="main-text">
+          <div class="description">
+            <h3>DataWorks Inc.</h3>
+            <p>Data Analyst</p>
+          </div>
+          <div style="background-color: white">
+            <i class="bi bi-trash icons"></i>
+          </div>
+        </div>
+        <button class="not_applied">Not Applied</button>
+
+        <p>London, UK • Full-time • $70,000 - $90,000</p>
+        <button class="inter">Interview</button>
+        <button class="rej">Rejected</button>
+      </div>
+
+      <div class="main-card">
+        <div class="main-text">
+          <div class="description">
+            <h3>CloudEdge</h3>
+            <p>DevOps Engineer</p>
+          </div>
+          <div style="background-color: white">
+            <i class="bi bi-trash icons"></i>
+          </div>
+        </div>
+        <button class="not_applied">Not Applied</button>
+
+        <p>Berlin, Germany • Full-time • €80,000 - €100,000</p>
+        <button class="inter">Interview</button>
+        <button class="rej">Rejected</button>
+      </div>
+
+      <div class="main-card">
+        <div class="main-text">
+          <div class="description">
+            <h3>CyberNet</h3>
+            <p>Full Stack Developer</p>
+          </div>
+          <div style="background-color: white">
+            <i class="bi bi-trash icons"></i>
+          </div>
+        </div>
+        <button class="not_applied">Not Applied</button>
+
+        <p>Remote • Contract • $90,000 - $110,000</p>
+        <button class="inter">Interview</button>
+        <button class="rej">Rejected</button>
+      </div>
+      <div class="main-card">
+        <div class="main-text">
+          <div class="description">
+            <h3>InnovateX</h3>
+            <p>UI/UX Designer</p>
+          </div>
+          <div style="background-color: white">
+            <i class="bi bi-trash icons"></i>
+          </div>
+        </div>
+        <button class="not_applied">Not Applied</button>
+
+        <p>Toronto, Canada • Full-time • $60,000 - $80,000</p>
+        <button class="inter">Interview</button>
+        <button class="rej">Rejected</button>
+      </div>
+
+      <div class="main-card">
+        <div class="main-text">
+          <div class="description">
+            <h3>SmartTech</h3>
+            <p>AI/ML Engineer</p>
+          </div>
+          <div style="background-color: white">
+            <i class="bi bi-trash icons"></i>
+          </div>
+        </div>
+        <button class="not_applied">Not Applied</button>
+
+        <p>Remote • Full-time • $120,000 - $150,000</p>
+        <button class="inter">Interview</button>
+        <button class="rej">Rejected</button>
+      </div>
+    </main>
+
+    <section id="interview" class="hidden">
+      <!-- <div class="main-top">
+        <h2>Available Jobs</h2>
+        <p>0 jobs</p>
+      </div>
+      <div class="buttons">
+        <button class="btn_all">All</button>
+        <button class="btn_inter">Interview</button>
+        <button class="btn_rej">Rejected</button>
+      </div> -->
+      <div class="main-avaliable-card">
+        <img src="assets/img/jobs.png" alt="" />
+        <h2>No jobs avaliable</h2>
+        <p>Check Back soon for new job opportunities</p>
+      </div>
+    </section>
+
+    <section id="rejected" class="hidden">
+      <!-- <div class="main-top">
+        <h2>Available Jobs</h2>
+        <p>0 jobs</p>
+      </div>
+      <div class="buttons">
+        <button class="btn_all">All</button>
+        <button class="btn_inter">Interview</button>
+        <button class="btn_rej">Rejected</button>
+      </div> -->
+      <div class="main-avaliable-card">
+        <img src="assets/img/jobs.png" alt="" />
+        <h2>No jobs avaliable</h2>
+        <p>Check Back soon for new job opportunities</p>
+      </div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

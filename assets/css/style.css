@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Work Sans", sans-serif;
+}
+body {
+  background-color: #f8fafc;
+}
+
+header,
+hr,
+main, #rejected, #interview,.topbar {
+  width: 1100px;
+  margin: 0 auto;
+
+  /* flex-direction: column; */
+  /* border: 2px solid; */
+}
+
+header,
+.main-top,main, #rejected, #interview {
+  margin-top: 10px;
+  padding: 20px;
+  /* display: flex; */
+  /* justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+#job-title {
+  font-size: 32px;
+}
+.job_cards {
+  display: flex;
+  margin-top: 30px;
+}
+.card {
+  width: 359.33px;
+  height: 97px;
+  margin-right: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+.card p,
+.card h2 {
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+.card p {
+  color: #323b49;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #e6e7e9;
+  margin-top: 20px;
+}
+
+.main-top {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+  /* margin-left: 20px; */
+  gap: 20px;
+
+  margin-bottom: 20px;
+}
+.tab,
+.btn_all,
+.btn_inter,
+
+.btn_rej {
+  width: 82px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+
+  /* padding: px; */
+
+  background-color: white;
+  color: black;
+}
+
+.active {
+  background-color: black !important;
+  color: white !important;
+}
+
+.hidden {
+  display: none;
+}
+.main-card {
+  padding: 20px;
+  /* margin-top: 20px; */
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.main-text {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.description h2,
+.description p,
+.main-card > p,
+.description h3 {
+  background-color: white;
+}
+
+.main-card p {
+  padding: 15px 0px 20px 0px;
+}
+.description p {
+  padding: 10px 0px 20px 0px;
+}
+.not_applied {
+  padding: 10px 15px;
+  background-color: #eef4ff;
+  border: none;
+  border-radius: 5px;
+}
+.interview h2{
+  color: #10b981;
+}
+
+.rejected h2{
+  color: #ef4444;
+}
+.inter,
+.rej {
+  width: 97px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: white;
+}
+.inter {
+  border: 2px solid #10b981;
+  color: #10b981;
+
+}
+
+.rej {
+  border: 2px solid #ef4444;
+  color: #ef4444;
+}
+.icons {
+  color: #64748b;
+  background-color: white;
+  border: 1px solid #e7ebf0;
+  padding: 7px;
+  border-radius: 50%;
+}
